@@ -1,8 +1,8 @@
 import * as React from 'react';
 import './input-coefficients.component.css';
 
-export default function InputCoefficients({onInputCoefficients, onReset, onShowResult}) {
-
+export default function InputCoefficients(props) {
+    const {onInputCoefficients, onReset, onShowResult} = props;
     function handleSubmitCoefficients(event) {
         event.preventDefault();
         const {a, b, c } = event.target;

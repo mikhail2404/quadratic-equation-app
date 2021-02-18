@@ -1,0 +1,8 @@
+.equation {
+    display: flex;
+    justify-content: center;
+}
+.power {
+    align-self: flex-start;
+    font-size: 0.7rem;
+}
